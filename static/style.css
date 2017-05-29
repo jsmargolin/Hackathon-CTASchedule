@@ -1,0 +1,63 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+.jumbotron {
+  background-image:url('http://images.fineartamerica.com/images-medium-large-5/historic-chicago-el-train-christopher-arndt.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+.learn-more {
+  background-color: rgb(100,100,100);
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.learn-more p {
+    color: white;
+}
+.tns {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+.tns p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.tns h2 {
+    color: #393c3d;
+    font-size: 24px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li><a href="/">Home</a></li>
+                    <li class = "active"><a href="/templates/info.html">Train Routes</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <h2>Randomized Train Route</h2>
+        <img src="/pic" />
+        {% for line in session['text'] %}
+            <p>{{ line }}</p>
+        {% endfor %}
+        <div class="learn-more">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Creator</h3>
+                        <p>Jeremy Margolin</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Requirements</h3>
+                        <p>Our results come from randomized data, it will work with any general data set for transportation (ie: bus/train)</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Contact Us</h3>
+                        <p>Phone Number: (312)-589-8440, Email: jsmargolin1@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
